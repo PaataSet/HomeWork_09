@@ -17,8 +17,22 @@ img {
   max-width: 100%;
 }
 
+@font-face {
+  font-family: "Helvetica-Neue-LT-GEO-45-Lights";
+  src: url("../fonts/HelveticaNeueLTGEO-45Lights.woff2") format("woff2"),
+    url("../fonts/HelveticaNeueLTGEO-45Lights.woff") format("woff"),
+    url("../fonts/HelveticaNeueLTGEO-45Lights.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+.font-1 {
+  font-family: Helvetica-Neue-LT-GEO-45-Lights;
+}
+
 header {
-  padding: 50px;
+  padding: 50px 50px 15px 50px;
   background-color: blue;
   display: flex;
   align-items: center;
@@ -50,7 +64,7 @@ body {
 }
 
 .parent {
-  padding: 50px;
+  padding: 0 50px;
   display: grid;
   gap: 10px;
   grid-template-columns: repeat(4, 1fr);
