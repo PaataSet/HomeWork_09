@@ -45,8 +45,7 @@ header {
 }
 
 .logos {
-/*   max-width: 100px; */
-  max-height: 50px
+  max-width: 100px;
   display: flex;
   gap: 20px;
 }
